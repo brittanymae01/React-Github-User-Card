@@ -4,7 +4,7 @@ const Card = props => {
     // console.log(props.user)
     return (
         <div className='card'>
-            <img src={props.user.avatar_url} />
+            <img src={props.user.avatar_url} alt='user' />
             <div className='card-info'>
                 <h3 className='name'>{props.user.name}</h3>
                 <p className='username'>{props.user.login}</p>
