@@ -27,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container" >
-        <div class="header">
+        <div className="header">
           <img src={logo} alt="Lambda Logo" />
           <span role='img' aria-label='heart'>❤️'s</span>
           <img src={lambdalogo} alt="GitHub Logo" />
