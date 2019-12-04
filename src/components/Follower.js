@@ -5,7 +5,7 @@ const Follower = props => {
         <div className='card'>
             <img src={props.img} alt='follower' />
             <div>
-                <h3 className='username'>{props.name}</h3>
+                <p className='username' >Profile: <a href={props.name}>{props.name}</a></p>
             </div>
         </div>
     )
